@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+
+header{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: rgb(192, 192, 192);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.container{
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form input{
+    padding: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+form button{
+    padding: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(8, 221, 8);
+    color: black;
+}
+
+.lista{
+    display: flex;
+}
+
+ul li {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.risco{
+    text-decoration: line-through;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Afazeres</h1>
+    </header>
+    <h2>Adicione um Afazer</h2>
+    <div class="container">
+        <form>
+            <input type="text" id="afazer" required placeholder="Nome do Afazer"/>
+            <span id='riscado'></span>
+            <button type="submit" id="btn-lista">Registrar</button>
+        </form>
+        <div class="lista">
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
