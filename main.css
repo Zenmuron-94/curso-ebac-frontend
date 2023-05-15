@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(207, 207, 207);
+
+}
+
+header h1{
+    max-width: 1024px;
+    width: 5%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.container{
+    max-width: 1024px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+.campo{
+    margin-bottom: 16px;
+}
+
+
+.campo input{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+
+
+form{
+    max-width: 360px;
+}
+
+
+form button{
+    width: 120px;
+    height: 40px;
+}
